@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ankita Shetty/AndroidStudioProjects/NewsMVVM/app/src/main/res/drawable/item_background.xml" value="0.2703125" />
         <entry key="..\:/Users/Ankita Shetty/AndroidStudioProjects/NewsMVVM/app/src/main/res/layout/fragment_details.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/Ankita Shetty/AndroidStudioProjects/NewsMVVM/app/src/main/res/layout/fragment_favorite.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/Ankita Shetty/AndroidStudioProjects/NewsMVVM/app/src/main/res/layout/fragment_feed.xml" value="0.1933876811594203" />

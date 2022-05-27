@@ -1,5 +1,4 @@
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
+
 import com.example.newsmvvm.data.model.NewsArticle
 import com.example.newsmvvm.data.model.NewsResponse
 import com.example.newsmvvm.data.model.Source
@@ -12,13 +11,6 @@ object FakeDataUtil {
             articles = articles, "200", 2
         )
         return NetworkState.Success(newsResponse)
-    }
-
-    fun getFakeNewsArticleLiveData(): LiveData<List<NewsArticle>> {
-        val list = MutableLiveData<List<NewsArticle>>()
-        val result: LiveData<List<NewsArticle>> = list
-        list.postValue(getFakeArticles())
-        return result
     }
 
     fun getFakeArticles(): MutableList<NewsArticle> {

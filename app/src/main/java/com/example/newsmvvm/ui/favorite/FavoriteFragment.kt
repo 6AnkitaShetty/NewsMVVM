@@ -23,6 +23,7 @@ class FavoriteFragment : Fragment() {
     private lateinit var binding : FragmentFavoriteBinding
     lateinit var viewModel: NewsViewModel
     private lateinit var newsAdapter: NewsAdapter
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
