@@ -6,7 +6,6 @@ Also, gives users the ability to save those articles to refer to them later.
 ## Architecture
 The app uses `MVVM(Model View View Model)` design pattern. 
 MVVM provides better separation of concern, easier testing, lifecycle awareness, etc.
-![](images/MVVM_Flow.png)
 
 ## Functionality
 The app's functionality includes:
